@@ -1,0 +1,316 @@
+<div class="card white">
+  <div class="card-content">
+    <div class="col s7">
+      <span class="card-title black-text"><strong>{{titulo}}</strong></span>
+    </div>
+    <div class="col s5">
+      <div class = "input-field col s12">
+        <input placeholder="Buscar Producto" id="buscar" type="text" class="active validate">
+        <label for="buscar">¿Que esta buscando?</label>
+     </div>
+    </div>
+    <div class="col s12">
+
+       <div class="col s3">
+          <div class="card">
+
+            <img class="card-img-top" src="../assets/imagenesBase/aguacate.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">{{productos[0]["producto"]}}</h5>
+              <h6>Precio ${{productos[0]["precio"]}}</h6>
+              <h6>Unidades disponibles {{productos[0]["unidades"]}}</h6>
+              <a class="waves-effect btn-small light-blue darken-2 white-text">Ver Más</a>
+              <a class="waves-effect btn-small yellow darken-2 white-text">Añadir</a>
+              <input type="number" name="cantidad" class="cantidad" value="1">
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col s3">
+           <div class="card">
+             <img class="card-img-top" src="../assets/imagenesBase/ajo.jpg" alt="Card image cap">
+             <div class="card-body">
+               <h5 class="card-title">{{productos[1]["producto"]}}</h5>
+               <h6>Precio {{productos[1]["precio"]}}</h6>
+               <h6>Unidades disponibles {{productos[1]["unidades"]}}</h6>
+               <a class="waves-effect btn-small light-blue darken-2 white-text">Ver Más</a>
+               <a class="waves-effect btn-small yellow darken-2 white-text">Añadir</a>
+               <input type="number" name="cantidad" class="cantidad" value="1">
+             </div>
+           </div>
+         </div>
+
+         <div class="col s3">
+            <div class="card">
+              <img class="card-img-top" src="../assets/imagenesBase/almendras.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">{{productos[2]["producto"]}}</h5>
+                <h6>Precio ${{productos[2]["precio"]}}</h6>
+                <h6>Unidades disponibles {{productos[2]["unidades"]}}</h6>
+                <a class="waves-effect btn-small light-blue darken-2 white-text">Ver Más</a>
+                <a class="waves-effect btn-small yellow darken-2 white-text">Añadir</a>
+                <input type="number" name="cantidad" class="cantidad" value="1">
+              </div>
+            </div>
+          </div>
+
+          <div class="col s3">
+             <div class="card">
+               <img class="card-img-top" src="../assets/imagenesBase/arandanos.jpg" alt="Card image cap">
+               <div class="card-body">
+                 <h5 class="card-title">{{productos[3]["producto"]}}</h5>
+                 <h6>Precio ${{productos[3]["precio"]}}</h6>
+                 <h6>Unidades disponibles {{productos[3]["unidades"]}}</h6>
+                 <a class="waves-effect btn-small light-blue darken-2 white-text">Ver Más</a>
+                 <a class="waves-effect btn-small yellow darken-2 white-text">Añadir</a>
+                 <input type="number" name="cantidad" class="cantidad" value="1">
+               </div>
+             </div>
+           </div>
+
+           <div class="col s3">
+              <div class="card">
+                <img class="card-img-top" src="../assets/imagenesBase/brocoli.png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">{{productos[4]["producto"]}}</h5>
+                  <h6>Precio ${{productos[4]["precio"]}}</h6>
+                  <h6>Unidades disponibles {{productos[4]["unidades"]}}</h6>
+                  <a class="waves-effect btn-small light-blue darken-2 white-text">Ver Más</a>
+                  <a class="waves-effect btn-small yellow darken-2 white-text">Añadir</a>
+                  <input type="number" name="cantidad" class="cantidad" value="1">
+                </div>
+              </div>
+            </div>
+
+            <div class="col s3">
+               <div class="card">
+                 <img class="card-img-top" src="../assets/imagenesBase/calabaza.jpg" alt="Card image cap">
+                 <div class="card-body">
+                   <h5 class="card-title">{{productos[5]["producto"]}}</h5>
+                   <h6>Precio ${{productos[5]["precio"]}}</h6>
+                   <h6>Unidades disponibles {{productos[5]["unidades"]}}</h6>
+                   <a class="waves-effect btn-small light-blue darken-2 white-text">Ver Más</a>
+                   <a class="waves-effect btn-small yellow darken-2 white-text">Añadir</a>
+                   <input type="number" name="cantidad" class="cantidad" value="1">
+                 </div>
+               </div>
+             </div>
+
+             <div class="col s3">
+                <div class="card">
+                  <img class="card-img-top" src="../assets/imagenesBase/canela.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">{{productos[6]["producto"]}}</h5>
+                    <h6>Precio ${{productos[6]["precio"]}}</h6>
+                    <h6>Unidades disponibles {{productos[6]["unidades"]}}</h6>
+                    <a class="waves-effect btn-small light-blue darken-2 white-text">Ver Más</a>
+                    <a class="waves-effect btn-small yellow darken-2 white-text">Añadir</a>
+                    <input type="number" name="cantidad" class="cantidad" value="1">
+                  </div>
+                </div>
+              </div>
+
+              <div class="col s3">
+                 <div class="card">
+                   <img class="card-img-top" src="../assets/imagenesBase/cebolla.jpg" alt="Card image cap">
+                   <div class="card-body">
+                     <h5 class="card-title">{{productos[7]["producto"]}}</h5>
+                     <h6>Precio ${{productos[7]["precio"]}}</h6>
+                     <h6>Unidades disponibles {{productos[7]["unidades"]}}</h6>
+                     <a class="waves-effect btn-small light-blue darken-2 white-text">Ver Más</a>
+                     <a class="waves-effect btn-small yellow darken-2 white-text">Añadir</a>
+                     <input type="number" name="cantidad" class="cantidad" value="1">
+                   </div>
+                 </div>
+               </div>
+
+               <div class="col s3">
+                  <div class="card">
+                    <img class="card-img-top" src="../assets/imagenesBase/fresa.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">{{productos[8]["producto"]}}</h5>
+                      <h6>Precio ${{productos[8]["precio"]}}</h6>
+                      <h6>Unidades disponibles {{productos[8]["unidades"]}}</h6>
+                      <a class="waves-effect btn-small light-blue darken-2 white-text">Ver Más</a>
+                      <a class="waves-effect btn-small yellow darken-2 white-text">Añadir</a>
+                      <input type="number" name="cantidad" class="cantidad" value="1">
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col s3">
+                   <div class="card">
+                     <img class="card-img-top" src="../assets/imagenesBase/kiwi.jpg" alt="Card image cap">
+                     <div class="card-body">
+                       <h5 class="card-title">{{productos[9]["producto"]}}</h5>
+                       <h6>Precio ${{productos[9]["precio"]}}</h6>
+                       <h6>Unidades disponibles {{productos[9]["unidades"]}}</h6>
+                       <a class="waves-effect btn-small light-blue darken-2 white-text">Ver Más</a>
+                       <a class="waves-effect btn-small yellow darken-2 white-text">Añadir</a>
+                       <input type="number" name="cantidad" class="cantidad" value="1">
+                     </div>
+                   </div>
+                 </div>
+
+                 <div class="col s3">
+                    <div class="card">
+                      <img class="card-img-top" src="../assets/imagenesBase/limon.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">{{productos[10]["producto"]}}</h5>
+                        <h6>Precio ${{productos[10]["precio"]}}</h6>
+                        <h6>Unidades disponibles {{productos[10]["unidades"]}}</h6>
+                        <a class="waves-effect btn-small light-blue darken-2 white-text">Ver Más</a>
+                        <a class="waves-effect btn-small yellow darken-2 white-text">Añadir</a>
+                        <input type="number" name="cantidad" class="cantidad" value="1">
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col s3">
+                     <div class="card">
+                       <img class="card-img-top" src="../assets/imagenesBase/lychee.jpg" alt="Card image cap">
+                       <div class="card-body">
+                         <h5 class="card-title">{{productos[11]["producto"]}}</h5>
+                         <h6>Precio ${{productos[11]["precio"]}}</h6>
+                         <h6>Unidades disponibles {{productos[11]["unidades"]}}</h6>
+                         <a class="waves-effect btn-small light-blue darken-2 white-text">Ver Más</a>
+                         <a class="waves-effect btn-small yellow darken-2 white-text">Añadir</a>
+                         <input type="number" name="cantidad" class="cantidad" value="1">
+                       </div>
+                     </div>
+                   </div>
+
+                   <div class="col s3">
+                      <div class="card">
+                        <img class="card-img-top" src="../assets/imagenesBase/maiz.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">{{productos[12]["producto"]}}</h5>
+                          <h6>Precio ${{productos[12]["precio"]}}</h6>
+                          <h6>Unidades disponibles {{productos[12]["unidades"]}}</h6>
+                          <a class="waves-effect btn-small light-blue darken-2 white-text">Ver Más</a>
+                          <a class="waves-effect btn-small yellow darken-2 white-text">Añadir</a>
+                          <input type="number" name="cantidad" class="cantidad" value="1">
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col s3">
+                       <div class="card">
+                         <img class="card-img-top" src="../assets/imagenesBase/manzana.jpg" alt="Card image cap">
+                         <div class="card-body">
+                           <h5 class="card-title">{{productos[13]["producto"]}}</h5>
+                           <h6>Precio ${{productos[13]["precio"]}}</h6>
+                           <h6>Unidades disponibles {{productos[13]["unidades"]}}</h6>
+                           <a class="waves-effect btn-small light-blue darken-2 white-text">Ver Más</a>
+                           <a class="waves-effect btn-small yellow darken-2 white-text">Añadir</a>
+                           <input type="number" name="cantidad" class="cantidad" value="1">
+                         </div>
+                       </div>
+                     </div>
+
+                     <div class="col s3">
+                        <div class="card">
+                          <img class="card-img-top" src="../assets/imagenesBase/naranja.jpg" alt="Card image cap">
+                          <div class="card-body">
+                            <h5 class="card-title">{{productos[14]["producto"]}}</h5>
+                            <h6>Precio ${{productos[14]["precio"]}}</h6>
+                            <h6>Unidades disponibles {{productos[14]["unidades"]}}</h6>
+                            <a class="waves-effect btn-small light-blue darken-2 white-text">Ver Más</a>
+                            <a class="waves-effect btn-small yellow darken-2 white-text">Añadir</a>
+                            <input type="number" name="cantidad" class="cantidad" value="1">
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col s3">
+                         <div class="card">
+                           <img class="card-img-top" src="../assets/imagenesBase/papa.jpg" alt="Card image cap">
+                           <div class="card-body">
+                             <h5 class="card-title">{{productos[15]["producto"]}}</h5>
+                             <h6>Precio ${{productos[15]["precio"]}}</h6>
+                             <h6>Unidades disponibles {{productos[15]["unidades"]}}</h6>
+                             <a class="waves-effect btn-small light-blue darken-2 white-text">Ver Más</a>
+                             <a class="waves-effect btn-small yellow darken-2 white-text">Añadir</a>
+                             <input type="number" name="cantidad" class="cantidad" value="1">
+                           </div>
+                         </div>
+                       </div>
+
+                       <div class="col s3">
+                          <div class="card">
+                            <img class="card-img-top" src="../assets/imagenesBase/pasta.jpg" alt="Card image cap">
+                            <div class="card-body">
+                              <h5 class="card-title">{{productos[16]["producto"]}}</h5>
+                              <h6>Precio ${{productos[16]["precio"]}}</h6>
+                              <h6>Unidades disponibles {{productos[16]["unidades"]}}</h6>
+                              <a class="waves-effect btn-small light-blue darken-2 white-text">Ver Más</a>
+                              <a class="waves-effect btn-small yellow darken-2 white-text">Añadir</a>
+                              <input type="number" name="cantidad" class="cantidad" value="1">
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col s3">
+                           <div class="card">
+                             <img class="card-img-top" src="../assets/imagenesBase/pimienta.jpg" alt="Card image cap">
+                             <div class="card-body">
+                               <h5 class="card-title">{{productos[17]["producto"]}}</h5>
+                               <h6>Precio ${{productos[17]["precio"]}}</h6>
+                               <h6>Unidades disponibles {{productos[17]["unidades"]}}</h6>
+                               <a class="waves-effect btn-small light-blue darken-2 white-text">Ver Más</a>
+                               <a class="waves-effect btn-small yellow darken-2 white-text">Añadir</a>
+                               <input type="number" name="cantidad" class="cantidad" value="1">
+                             </div>
+                           </div>
+                         </div>
+
+                         <div class="col s3">
+                            <div class="card">
+                              <img class="card-img-top" src="../assets/imagenesBase/repollo.jpg" alt="Card image cap">
+                              <div class="card-body">
+                                <h5 class="card-title">{{productos[18]["producto"]}}</h5>
+                                <h6>Precio ${{productos[18]["precio"]}}</h6>
+                                <h6>Unidades disponibles {{productos[18]["unidades"]}}</h6>
+                                <a class="waves-effect btn-small light-blue darken-2 white-text">Ver Más</a>
+                                <a class="waves-effect btn-small yellow darken-2 white-text">Añadir</a>
+                                <input type="number" name="cantidad" class="cantidad" value="1">
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="col s3">
+                             <div class="card">
+                               <img class="card-img-top" src="../assets/imagenesBase/tomate.jpg" alt="Card image cap">
+                               <div class="card-body">
+                                 <h5 class="card-title">{{productos[19]["producto"]}}</h5>
+                                 <h6>Precio ${{productos[19]["precio"]}}</h6>
+                                 <h6>Unidades disponibles {{productos[19]["unidades"]}}</h6>
+                                 <a class="waves-effect btn-small light-blue darken-2 white-text">Ver Más</a>
+                                 <a class="waves-effect btn-small yellow darken-2 white-text">Añadir</a>
+                                 <input type="number" name="cantidad" class="cantidad" value="1">
+                               </div>
+                             </div>
+                           </div>
+
+                           <div class="col s3">
+                              <div class="card">
+                                <img class="card-img-top" src="../assets/imagenesBase/zanahoria.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                  <h5 class="card-title">{{productos[20]["producto"]}}</h5>
+                                  <h6>Precio ${{productos[20]["precio"]}}</h6>
+                                  <h6>Unidades disponibles {{productos[20]["unidades"]}}</h6>
+                                  <a class="waves-effect btn-small light-blue darken-2 white-text">Ver Más</a>
+                                  <a class="waves-effect btn-small yellow darken-2 white-text">Añadir</a>
+                                  <input type="number" name="cantidad" class="cantidad" value="1">
+                                </div>
+                              </div>
+                            </div>
+
+
+
+
+    </div>
+  </div>
+
+</div>
